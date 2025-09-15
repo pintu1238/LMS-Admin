@@ -1,0 +1,52 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: $text-dark;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 1rem;
+
+  &__header {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  &__nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+.main__content {
+  margin-left: 250px; // match sidebar width
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.main__inner {
+  padding: 2rem;
+}
+.sidebar {
+  transition: all 0.3s ease;
+
+  .nav-link {
+    transition: 0.2s ease-in-out;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      text-decoration: none;
+    }
+  }
+
+  .hover-opacity:hover {
+    opacity: 0.85;
+  }
+}

@@ -1,0 +1,6 @@
+@import './variables';
+@import './globals';
+@import './layout';
+@import './dashboard';
+@import './layout'; // This should be in main.scss
+@import './dashboard';

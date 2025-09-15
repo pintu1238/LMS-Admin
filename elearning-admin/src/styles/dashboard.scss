@@ -1,0 +1,24 @@
+.dashboard-card {
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body {
+    padding: 1.5rem;
+  }
+
+  h6 {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    color: #212529;
+  }
+}
